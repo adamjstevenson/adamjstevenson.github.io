@@ -1,2 +1,3 @@
 # adamjstevenson.github.io
-## Jut a simple blog running on Jekyll
+
+Jut a simple Github pages site running on Jekyll. 
