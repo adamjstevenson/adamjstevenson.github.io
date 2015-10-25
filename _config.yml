@@ -1,0 +1,12 @@
+# Site settings
+title: Adam Stevenson
+description: "Writing about code, startups, and life things."
+baseurl: ""
+url: "http://adamjstevenson.com"
+
+# Build settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
