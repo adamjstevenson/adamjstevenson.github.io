@@ -15,3 +15,21 @@
 body, h1, h2, h3 {
 	font-weight: 300;
 }
+.topspace {
+	margin-top: 10px;
+}
+.topspace-lg {
+	margin-top: 50px;
+}
+.blue {
+	color: #0099e5;
+}
+.red {
+	color: #B20000;
+}
+.pink {
+	color: #B20000;
+}
+.green {
+	color: #006600;
+}
