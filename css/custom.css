@@ -3,6 +3,10 @@
 	color: #fff;
 	padding: 100px;
 }
+.jumbotron h1 a:link, .jumbotron h1 a:visited {
+	color:#fff;
+	text-decoration: none;
+}
 .navbar a:link, .navbar a:visited {
 	color: #fff;
 	font-weight: bold;
