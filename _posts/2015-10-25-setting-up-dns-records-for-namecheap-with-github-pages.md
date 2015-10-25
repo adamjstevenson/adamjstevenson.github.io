@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up DNS for a custom domain with Namecheap and GitHub Pages
+title: Setting up Dns for a Custom Domain with Namecheap and Github Pages
 category: tutorials
 ---
 
