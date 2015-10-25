@@ -2,7 +2,7 @@
 title: Adam Stevenson
 description: "Writing about code, startups, and life things."
 baseurl: ""
-url: "http://adamjstevenson.com"
+url: "http://adamjstevenson.github.io"
 
 # Build settings
 markdown: redcarpet
