@@ -4,9 +4,9 @@ title: A Simple Guide to Using Stripe Checkout with Subscriptions
 category: stripe
 ---
 
-[Stripe Checkout](https://stripe.com/checkout) is a pre-built form that makes securely collecting credit card details from your customers unbelievably simple: just paste a few lines into your code and you have a fully-functioning form, complete with validation, to accept card details and turn them into a secure token. 
+[Stripe Checkout](https://stripe.com/checkout) is a prebuilt form that makes securely collecting credit card details from your customers unbelievably simple: just paste a few lines into your code and you have a fully-functioning form, complete with validation, to accept card details from your customers. 
 
-Although the [official docs](https://stripe.com/docs/checkout) give an example of a Checkout form that you might use for a one-off payment, Stripe provides several useful [configuration options](https://stripe.com/docs/checkout#integration-simple-options) you can use to modify the Checkout form. In this example, we'll modify a few of these configuration options to make Checkout a bit more appropriate for customers signing up for a subscription. Here's what the end product will look like:
+Although the [official docs](https://stripe.com/docs/checkout) give an example of a Checkout form that you might use for a one-off payment, Stripe provides several useful [configuration options](https://stripe.com/docs/checkout#integration-simple-options) you can use to modify the Checkout form. In this example, we'll modify a few of these configuration options to make Checkout a bit more appropriate for customers signing up for a subscription. Here's what the final product will look like:
 
 <form action="" method="POST">
   <script
