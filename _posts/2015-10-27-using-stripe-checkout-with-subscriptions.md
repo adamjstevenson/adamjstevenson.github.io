@@ -54,10 +54,15 @@ There are a few options you'll want to change as well:
 * `data-description` is a description to help your customers understand what they're getting. You'll probably want to use the name of your subscription plan, like *Gold Plan* or *Yearly Access Fee*. 
 * `data-amount` is the amount of the plan that the customer is subscribing to. This option only serves to provide your customer with an amount they can see on the form -- it doesn't actually have any function in creating the charge or subscribing the customer to a plan. We're not displaying it in this form, so it's not totally necessary.
 
-Finally, you'll probably want to change the form `action`. This should points to the script or route (e.g. "subscription.php") that will actually create the subscription. An important distinction (and possible source of confusion) is that Checkout's sole function is to create a token with the card details your customers submit and return it back to your server. Once you customer enters their card information successfully, Stripe will create a secure single-us representation of those card details back in the form of a token. That token will be submitted to the `action` you specify here. 
+Finally, you'll probably want to change the form `action`. This should points to the script or route (e.g. "subscription.php") that will actually create the subscription. An important distinction (and possible source of confusion) is that Checkout's sole function is to create a token with the card details your customers submit and return it back to your server. Once you customer enters their card information successfully, Stripe will create a secure single-use representation of those card details back in the form of a token. That token will be submitted to the `action` you specify here.
 
 ## The finished form
 
-You can find an example of the finished form here:
+You can find an example of the finished form [on GitHub](https://github.com/adamjstevenson/stripe-examples/edit/master/checkout/checkout-subscription.html).
 
-https://github.com/adamjstevenson/stripe-examples/edit/master/checkout/checkout-subscription.html
+## Next steps
+
+Your form should look more appopriate for your customers signing up for your subscription service and should be creating tokens. Stripe has some pretty excellent documentation on creating the plan and subscribing your customers to that plan using the token that your fancy new Checkout form returns. You can find some more instructions on each of these steps here:
+
+* [Create a plan](https://stripe.com/docs/tutorials/subscriptions#creating-a-plan)
+* [Subscribe your customer to that plan](https://stripe.com/docs/tutorials/subscriptions#subscribing-a-customer-to-a-plan)
