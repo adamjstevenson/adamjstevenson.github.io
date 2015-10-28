@@ -1,6 +1,11 @@
 body {
 	font-size: 18px;
 }
+.navbar {
+	background-color: #00B2EE;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
 .jumbotron {
 	background-color: #00B2EE;
 	color: #fff;
