@@ -33,7 +33,7 @@ charges.each do |charge|
 end
 ```
 
-The response you receive contains a `has_more` boolean that indicates whether there are more results available. This also simplifies things for you; if there are more than 100 results available, you'll know you want to keep going. Add a while loop to handle iterating through the results while we have more available. 
+The response you receive contains a `has_more` boolean indicating whether there are more results available. This also simplifies things for you; if there are more than 100 results available, you'll know you want to keep going. Add a while loop to handle iterating through the results while we have more available. 
 
 ```
 while charges.has_more do 
@@ -45,7 +45,7 @@ while charges.has_more do
 end
 ```
 
-Pretty easy, right? Now that you have some foundational knowledge, you're ready to fancy it up a bit. 
+Pretty easy, right? Ok, let's fancy it up a bit. 
 
 ## Paginating through Stripe customers created in the last month (PHP)
 <script src="https://gist.github.com/adamjstevenson/1832de416338e0fe579a.js"></script>
