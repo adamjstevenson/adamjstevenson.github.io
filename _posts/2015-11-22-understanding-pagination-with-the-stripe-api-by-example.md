@@ -64,6 +64,6 @@ Some list methods have additional arguments as well. Here, you're using `type` t
 
 ## Another 999,999,996 examples?
 
-This post was initially titled "A Billion Examples of Pagination with the Stripe API", but after I got through 4 I realized that a billion seemed would take a while. Still, there are lots of cool and useful things you can do here so it's likely I'll come back here later and update this in the future. 
+This post was initially titled "A Billion Examples of Pagination with the Stripe API", but after I got through 4 I realized that a billion seemed would take a while. Still, there are lots of cool and useful things you can do with the Stripe API and pagination, so it's likely I'll come back later and update this in the future. 
 
 [0] Except people who aren't using one of these languages. Close enough.
