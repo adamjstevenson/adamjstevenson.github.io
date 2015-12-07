@@ -18,7 +18,7 @@ body {
 .navbar a:link, .navbar a:visited {
 	color: #fff;
 	font-weight: normal;
-	margin-right: 10px;
+	margin-right: 8px;
 }
 body, h1, h2, h3 {
 	font-weight: 300;
