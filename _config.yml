@@ -5,7 +5,6 @@ baseurl: ""
 url: "http://adamjstevenson.github.io"
 
 # Build settings
-markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 redcarpet:
