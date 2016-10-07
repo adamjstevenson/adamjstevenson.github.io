@@ -15,7 +15,6 @@ Although the [official docs](https://stripe.com/docs/checkout) give an example o
     data-image="/images/troll_logo.png"
     data-name="SaaS Service"
     data-description="Gold Plan Subscription"
-    data-amount="3900"
     data-locale="auto"
     data-panel-label="Subscribe for $39/month"
     data-label="Subscribe Now">
