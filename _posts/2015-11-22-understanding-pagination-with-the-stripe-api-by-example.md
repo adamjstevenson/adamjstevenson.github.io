@@ -4,9 +4,14 @@ title: Understanding Pagination with the Stripe Api
 category: stripe
 ---
 
+<div class="alert alert-warning">
+  <h4>Updated 11/2016</h4>
+  Stripe now provides <a href="https://stripe.com/docs/api#auto-pagination">auto-pagination</a> for several libraries as well, which makes retrieving entire lists trivial. <a href="#auto-pagination">See some examples</a>.
+</div>
+
 There are lots of reasons you might need to paginate through your [Stripe](https://stripe.com) data. Maybe you're building some custom reports using the API and want to obtain additional fields that aren't included in the dashboard exports. Maybe you're creating a sweet internal dashboard with your data. Maybe you just like long-running scripts that look all matrixy and cool. Whatever the reason, all of the top-level API resources inlude built-in "list" methods and use [cursor-based pagination](https://stripe.com/docs/api#pagination) to make this process pretty painless. 
 
-In this post, we'll run through some different pagination examples using the list methods. Since there are Stripe bindings for several popular languages (and because I'm just really thoughtful and awesome), I've rotated through examples in Ruby, PHP, Python, and Node to make everyone [0] happy. 
+In this post, we'll run through some different pagination examples using the list methods. Since there are Stripe bindings available for many popular languages, I've rotated through examples in Ruby, PHP, Python, and Node to make everyone happy. Unless you aren't using one of these libraries. But almost everyone. *Close enough*.
 
 ## A brief overview on pagination
 
@@ -62,8 +67,18 @@ You'll notice in this example we're adding `include[]=total_count` to find the t
 
 Some list methods have additional arguments as well. Here, you're using `type` to specify which events you'd like to retrieve.
 
-## Another 999,999,996 examples?
+## <a name="auto-pagination"></a>Auto-pagination
 
-This post was initially titled "A Billion Examples of Pagination with the Stripe API", but after I got through 4 I realized that a billion seemed would take a while. Still, there are lots of cool and useful things you can do with the Stripe API and pagination, so it's likely I'll come back later and update this in the future. 
+Most of Stripe's official libraries now support auto-pagination, which is particularly helpful for scripting things like custom reports or ad hoc API queries. I've added a few examples below. 
 
-[0] Except people who aren't using one of these languages. Close enough.
+## List all charges using auto-pagination (Python)
+
+<script src="https://gist.github.com/adamjstevenson/d40abd2659f83f900771a7fdc82cb494.js"></script>
+
+Just calling the `auto_paging_iter()` method on the list paginates through the charges, 100 at a time.
+
+## List all balance transactions for a transfer with auto-pagination (Ruby)
+
+<script src="https://gist.github.com/adamjstevenson/4de54bd08fe5f97eade10c1300c0ebd1.js"></script>
+
+By swapping the `each` method with the `auto_paging_each` method, you can leverage auto-pagination to reduce the number of API calls you're making manually and the lines of code in your script. 
