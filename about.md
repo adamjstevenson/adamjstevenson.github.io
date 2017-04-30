@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hey, I'm Adam. I like to code, build things, read, explore, and learn. I help developers integrate with <a href="https://stripe.com">Stripe</a> and currently live in San Diego, CA.  
+Hey, I'm Adam. I like to code, build things, read, explore the out of doors, and learn. I'm currently a Partner Engineer at <a href="https://stripe.com">Stripe</a>, where I work with developers at large companies to provide guidance as they design and build their Stripe integration. I've also founded, run, and sold several small software businesses of my own over the past 10 years. I live in San Diego, CA.  
 
-I haven't had anything on my site for a few years, but I'll endeavor to update this from time to time with things that I find interesting. Hopefully you'll find them interesting, too. 
-
-You can find me on <a href="https://twitter.com/adamjstevenson">Twitter</a> if you want to chat. 
+Keeping this site up to date is a thing I'm not very good at, but I'll try to post ooccasionally as time allows! You can find me on <a href="https://twitter.com/adamjstevenson">Twitter</a> if you want to chat.
