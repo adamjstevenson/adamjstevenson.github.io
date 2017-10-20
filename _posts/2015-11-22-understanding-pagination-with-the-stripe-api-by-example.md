@@ -31,7 +31,7 @@ Now that you know everything there is to know about pagination, let's look at so
 So what's happening here? To start, we're grabbing the first 100 charges and looping through them. In this example, you're just printing the charge ID.
 
 ```
-charges = Stripe::Charge.all(:limit => 100)
+charges = Stripe::Charge.list(limit: 100)
 
 charges.each do |charge|
   puts charge.id
@@ -42,7 +42,7 @@ The response you receive contains a `has_more` boolean indicating whether there 
 
 ```
 while charges.has_more do 
-  charges = Stripe::Charge.all(:limit => 100, :starting_after => charges.data.last.id)
+  charges = Stripe::Charge.list(limit: 100, starting_after: charges.data.last.id)
 
   charges.each do |charge|
     puts charge.id
