@@ -2,12 +2,16 @@ body {
 	font-size: 18px;
 }
 .navbar {
-	background-color: #00B2EE;
+	background: #CB356B;
+	background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+	background: linear-gradient(to right, #BD3F32, #CB356B);
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
 .jumbotron {
-	background-color: #00B2EE;
+	background: #CB356B;
+	background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+	background: linear-gradient(to right, #BD3F32, #CB356B);
 	color: #fff;
 	padding: 100px;
 }
