@@ -24,11 +24,23 @@ body {
 	font-weight: normal;
 	margin-right: 8px;
 }
-body, h1, h2, h3 {
+body, h1, h2, h3, h4 {
 	font-weight: 300;
+}
+h2 {
+	margin-top: 50px;
+}
+h3, h4 {
+	margin-top: 25px;
+}
+h4 {
+	font-weight: 400;
 }
 .topspace {
 	margin-top: 10px;
+}
+.topspace-md {
+	margin-top: 25px;
 }
 .topspace-lg {
 	margin-top: 50px;
@@ -44,4 +56,7 @@ body, h1, h2, h3 {
 }
 .green {
 	color: #006600;
+}
+.image-area {
+	margin-bottom: 50px;
 }
