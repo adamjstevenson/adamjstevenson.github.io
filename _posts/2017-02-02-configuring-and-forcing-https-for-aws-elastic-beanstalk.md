@@ -48,5 +48,5 @@ Visit your site using the HTTP protocol again and you should be redirected to th
 
 ## Other resources
 
-Be sure to check out the [AWS docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html) on configurating HTTPS for Elastic Beanstalk.
+Be sure to check out the [AWS docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html) on configuring HTTPS for Elastic Beanstalk.
 
