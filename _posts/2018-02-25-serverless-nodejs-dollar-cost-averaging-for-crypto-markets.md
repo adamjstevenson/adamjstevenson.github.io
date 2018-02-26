@@ -68,7 +68,7 @@ To walk through the high-level very quickly:
 
 <div class="row topspace-lg text-center text-muted image-area">
   <div class="col-md-8 col-md-offset-2">
-    <img src="/images/twilio.PNG" class="img-responsive img-thumbnail">
+    <img src="/images/twilio-screenshot.png" class="img-responsive img-thumbnail">
     <small>I'm crypto rich!</small>
   </div>
 </div>
