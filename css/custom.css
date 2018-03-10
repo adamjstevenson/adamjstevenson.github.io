@@ -1,3 +1,14 @@
+html {
+    font-family: "proxima-nova", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #555;
+    padding: 0;
+    margin: 0;
+}
 body {
 	font-size: 18px;
 }
@@ -26,10 +37,6 @@ body {
 }
 h1, h2, h3, h4 {
 	font-weight: 300;
-}
-body {
-	font-weight: 400;
-	color: #333;
 }
 h2 {
 	margin-top: 50px;
@@ -60,4 +67,7 @@ h3, h4 {
 }
 .image-area {
 	margin-bottom: 50px;
+}
+.highlighter-rouge{
+	margin-bottom: 25px;
 }
