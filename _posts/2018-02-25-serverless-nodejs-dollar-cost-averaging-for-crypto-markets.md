@@ -5,8 +5,11 @@ category: tutorials
 ---
 
 <div class="row topspace">
-  <div class="col-md-12 alert alert-warning">
-    <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money and expect that using this code or code like it can cause you to lose it.
+  <div class="col-md-12">
+    <div class="alert alert-warning">
+      <i class="fa fa-exclamation-triangle red"></i> 
+      <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money and expect that using this code or code like it can cause you to lose it.
+    </div>
   </div>
 </div>
 

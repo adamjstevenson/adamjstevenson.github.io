@@ -5,7 +5,7 @@ category: stripe
 ---
 
 <div class="alert alert-warning">
-  <h4>Updated 11/2016</h4>
+  <strong>Updated 11/2016:</strong> 
   Stripe now provides <a href="https://stripe.com/docs/api#auto-pagination">auto-pagination</a> for several libraries as well, which makes retrieving entire lists trivial. <a href="#auto-pagination">See some examples</a>.
 </div>
 
