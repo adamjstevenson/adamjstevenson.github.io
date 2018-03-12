@@ -68,10 +68,10 @@ h3, h4 {
 .image-area {
 	margin-bottom: 50px;
 }
-.highlighter-rouge{
+.highlighter-rouge {
 	margin-bottom: 25px;
 }
-.highlight {
+pre {
   background-color: #000;
   color: #fff;
 }

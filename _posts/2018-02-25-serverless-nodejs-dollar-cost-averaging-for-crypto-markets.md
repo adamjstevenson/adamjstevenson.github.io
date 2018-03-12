@@ -8,7 +8,7 @@ category: tutorials
   <div class="col-md-12">
     <div class="alert alert-warning">
       <i class="fa fa-exclamation-triangle red"></i> 
-      <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money and expect that using this code or code like it can cause you to lose it.
+      <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money, and expect that using this code (or code like it) coatuld cause you to lose it.
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ This chart illustrates the price of BTC in USD over the course of a 100 day peri
 
 If you'd instead divided that purchase evenly across those 100 days, buying $10 each day, you'd actually have a positive return on your investment because you purchased the majority of your BTC when the price was lower than it is today.
 
-This is kinda stupid because it's just one possible outcome, right? Instead maybe this graph is inverted or BTC continues to rise incrementally over the course of those 100 days. In that case, you'd actually be better off purchasing all of the BTC at day 0. Still, in that scenario if you'd used the same dollar-cost averaging method your investment would still appreciate, alebit not by as much. In that sense, this approach of spreading the purchase over time means that you're unlikely to experience as much volatility in either direction.
+This is kinda stupid because it's just one possible outcome, right? Instead maybe this graph is inverted or BTC continues to rise incrementally over the course of those 100 days. In that case, you'd actually be better off purchasing all of the BTC at day 0. Still, in this scenario if you'd used the same dollar-cost averaging method your investment would still appreciate, alebit not by as much. This approach of spreading the purchase over time means that you're unlikely to experience as much volatility in either direction.
 
 Disclaimer again: There's valid [criticism](https://en.wikipedia.org/wiki/Dollar_cost_averaging#Criticism) of dollar-cost averaging. But I'd also sincerely have trouble guessing if the price of any given coin will be 10x more valuable or 10x less valuable in 100 days from now. So this stategy seems reasonable. (Plus I'm just looking for an excuse to play with some APIs here. Don't @ me.)
 
@@ -111,7 +111,7 @@ GDAX_API_ENDPOINT=https://api-public.sandbox.gdax.com
 
 (Note that this example uses the sandbox API endpoint for GDAX.)
 
-You can use [Sam Local](https://docs.aws.amazon.com/lambda/latest/dg/test-sam-local.html), a simple CLI that allows you to test Lambda functions before deploying them. In your app directory, install the tool with NPM and create an empty event payload to send to the function:
+You can use [SAM Local](https://docs.aws.amazon.com/lambda/latest/dg/test-sam-local.html), a simple CLI that allows you to test Lambda functions before deploying them. In your app directory, install the tool with NPM and create an empty event payload to send to the function:
 
 ```
 $ npm install --global lambda-local
@@ -179,7 +179,7 @@ Click the **Test** button to run the function; you should receive another SMS fr
 
 We could ping this function every day on our own to make it run, but that's so 2000 and late. Instead, we'll use CloudWatch to schedule a simple job. 
 
-Click **CloudWatch Events** on the left side of the designer view, then click on the **CloudWatch Events** box that appears to reveal the *Configure triggers* form. Configure CloudWatch with the name, description and cron schedule that you want to use. Be sure to click the checkbox to **Enable the trigger**.
+Click **CloudWatch Events** on the left side of the designer view, then click on the **CloudWatch Events** box that appears to reveal the *Configure triggers* form. Configure CloudWatch with the name, description and cron schedule you want to use. Be sure to click the checkbox to **Enable the trigger**.
 
 <div class="row topspace-lg text-center text-muted image-area">
   <div class="col-md-8 col-md-offset-2">
@@ -191,7 +191,7 @@ Click **Add**, then **Save** on the top of the screen again. At this point your 
 
 ## Parting thoughts
 
-This is a pretty basic example that purchases $10 worth of Ether every day, but there are a number of things that I've not discussed that you should consider if you plan to use something like this in practice:
+This is a pretty basic example that purchases $10 worth of Ether every day, but there are a number of things I've not discussed which you should consider if you plan to use something like this in practice:
 
 1. This code might screw up somehow and cause you to lose all of your real money, I have no idea. I also make no warranty. For the love of god... be careful with this (and also don't @ me).
 2. This purchase will fail if the price of ETH is too high, because the minimum buy order may be more than $10. If you wanted to get really fancy, you could implement some logic to send an SMS to ask if you want to purchase .01 ETH for the current USD price or something.
