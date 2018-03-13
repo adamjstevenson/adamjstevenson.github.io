@@ -8,7 +8,7 @@ category: tutorials
   <div class="col-md-12">
     <div class="alert alert-warning">
       <i class="fa fa-exclamation-triangle red"></i> 
-      <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money, and expect that using this code (or code like it) coatuld cause you to lose it.
+      <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money, and expect that using this code (or code like it) could cause you to lose it.
     </div>
   </div>
 </div>
@@ -45,9 +45,9 @@ This chart illustrates the price of BTC in USD over the course of a 100 day peri
 
 If you'd instead divided that purchase evenly across those 100 days, buying $10 each day, you'd actually have a positive return on your investment because you purchased the majority of your BTC when the price was lower than it is today.
 
-This is kinda stupid because it's just one possible outcome, right? Instead maybe this graph is inverted or BTC continues to rise incrementally over the course of those 100 days. In that case, you'd actually be better off purchasing all of the BTC at day 0. Still, in this scenario if you'd used the same dollar-cost averaging method your investment would still appreciate, alebit not by as much. This approach of spreading the purchase over time means that you're unlikely to experience as much volatility in either direction.
+This is kinda stupid because it's just one possible outcome, right? Instead, maybe this graph is inverted or BTC continues to rise incrementally over the course of those 100 days. In that case, you'd actually be better off purchasing all of the BTC at day 0. Still, in this scenario if you'd used the same dollar-cost averaging method your investment would still appreciate, alebit not by as much. This approach of spreading the purchase over time means that you're unlikely to experience as much volatility in either direction.
 
-Disclaimer again: There's valid [criticism](https://en.wikipedia.org/wiki/Dollar_cost_averaging#Criticism) of dollar-cost averaging. But I'd also sincerely have trouble guessing if the price of any given coin will be 10x more valuable or 10x less valuable in 100 days from now. So this stategy seems reasonable. (Plus I'm just looking for an excuse to play with some APIs here. Don't @ me.)
+Disclaimer again: There's valid [criticism](https://en.wikipedia.org/wiki/Dollar_cost_averaging#Criticism) of dollar-cost averaging. But I'd also sincerely have trouble guessing if the price of any given coin will be 10x more valuable or 10x less valuable in 100 days from now. So this strategy seems reasonable. (Plus I'm just looking for an excuse to play with some APIs here. Don't @ me.)
 
 ## Why Lambda?
 
