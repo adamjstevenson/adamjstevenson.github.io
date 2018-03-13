@@ -85,7 +85,7 @@ If it fails, [an SMS is sent using the `sendSMS` function](https://github.com/ad
   <script src="https://gist.github.com/adamjstevenson/9a60628bae2dc31ea38511058fab46d9.js"></script>
 </div>
 
-And finally, the really exciting part: a market [buy order is placed](https://github.com/adamjstevenson/serverless-crypto-dca/blob/689f6f628633a2e890773c85ce6400045a6e3057/app.js#L43-L62) for $10 worth of ETH using the [GDAX Orders API](https://docs.gdax.com/#place-a-new-order). You could also create a limit order, but market orders are filled immediately at the best price whereas a limit order may not be executed at all. Yes, I realize limit order are also a thing. (Don't @ me.)
+And finally, the really exciting part: a market [buy order is placed](https://github.com/adamjstevenson/serverless-crypto-dca/blob/689f6f628633a2e890773c85ce6400045a6e3057/app.js#L43-L62) for $10 worth of ETH using the [GDAX Orders API](https://docs.gdax.com/#place-a-new-order). You could also create a limit order, but market orders are filled immediately at the best price whereas a limit order may not be executed at all.
 
 <div class="topspace-md">
   <script src="https://gist.github.com/adamjstevenson/220dc8c7cb11d7c6da09789d5cd35a2c.js"></script>
