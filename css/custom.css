@@ -44,6 +44,9 @@ h2 {
 h3, h4 {
 	margin-top: 25px;
 }
+h4 {
+  font-weight: bold;
+}
 .topspace {
 	margin-top: 10px;
 }
@@ -75,7 +78,7 @@ pre {
   background-color: #000;
   color: #fff;
 }
-.alert, .btn {
+.alert {
 	webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
@@ -84,4 +87,12 @@ pre {
 	border: 1px solid #B20000;
 	background-color: #fff;
 	color: #000;
+}
+.btn {
+  border: none;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
