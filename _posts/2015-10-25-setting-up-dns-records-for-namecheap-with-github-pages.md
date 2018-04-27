@@ -2,6 +2,7 @@
 layout: post
 title: Setting up Dns for a Custom Domain with Namecheap and Github Pages
 category: tutorials
+img: /images/header-gh-pages.jpg
 ---
 
 When I first registered and built this site back in 2008, it ran on Wordpress. I paid ~$15/month for my own hosting through Rackspace, pointed DNS to that VPS, and everything was pretty easy. I wasn't doing a great job of keeping up with the site and ended up taking it down about 4 years ago. 

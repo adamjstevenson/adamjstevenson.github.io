@@ -2,6 +2,7 @@
 layout: post
 title: A Simple Guide to Using Stripe Checkout with Subscriptions
 category: stripe
+img: /images/header-checkout-subscriptions.jpg
 ---
 
 [Stripe Checkout](https://stripe.com/checkout) is a prebuilt form that makes securely collecting credit card details from your customers unbelievably simple: just paste a few lines into your code and you have a fully-functioning form, complete with validation, to accept card details from your customers. 

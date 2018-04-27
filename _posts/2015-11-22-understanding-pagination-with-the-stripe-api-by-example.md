@@ -2,6 +2,7 @@
 layout: post
 title: Understanding Pagination with the Stripe Api
 category: stripe
+img: /images/header-stripe-paginate.jpg
 ---
 
 <div class="alert alert-warning">

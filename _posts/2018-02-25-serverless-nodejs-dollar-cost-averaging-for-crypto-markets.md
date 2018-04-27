@@ -2,6 +2,7 @@
 layout: post
 title: Serverless Dollar-cost Averaging for the Crypto Markets with Node.js, AWS Lambda, and the GDAX API
 category: tutorials
+img: /images/header-crypto.jpg
 ---
 
 <div class="row topspace">

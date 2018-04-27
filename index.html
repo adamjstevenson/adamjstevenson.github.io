@@ -2,28 +2,35 @@
 layout: default
 ---
 
-<h2><i class="fa fa-cc-stripe blue"></i> Stripe</h2>
-<ul class="list-unstyled">
-  {% for post in site.categories.stripe %}
-    <li>
-      <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <small>{{post.date | date: '%B %d, %Y'}}</small>
-      </h3>
-    </li>
-  {% endfor %}
-</ul>
-
-<h2 class="topspace-lg"><i class="fa fa-graduation-cap red"></i> Tutorials</h2>
-<ul class="list-unstyled">
-  {% for post in site.categories.tutorials %}
-    <li>
-      <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <small>{{post.date | date: '%B %d, %Y'}}</small>
-      </h3>
-    </li>
-  {% endfor %}
-</ul>
+<div class="row">
+  <div class="col-md-4 topspace-lg">
+    <a href="/articles">
+      <div class="card link-card">
+        <span class="fa-huge red">
+          <i class="fa fa-book" aria-hidden="true"></i>
+        </span>
+      </div>
+    </a>
+    <h2 class="text-center">Writings</h2>
+  </div>
+  <div class="col-md-4 topspace-lg">
+    <a href="https://github.com/adamjstevenson">
+      <div class="card link-card">
+        <span class="fa-huge gray">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </span>
+      </div>
+    </a>
+    <h2 class="text-center">Code</h2>
+  </div>
+  <div class="col-md-4 topspace-lg">
+    <a href="https://www.linkedin.com/in/adamjstevenson/">
+      <div class="card link-card">
+        <span class="fa-huge blue">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </span>
+      </div>
+    </a>
+    <h2 class="text-center">Background</h2>
+  </div>
+</div>

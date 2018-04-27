@@ -2,6 +2,7 @@
 layout: post
 title: Set up, Configure, and Force HTTPS on AWS Elastic Beanstalk in 5 Minutes
 category: tutorials
+img: /images/header-https-aws.jpg
 ---
 
 I've had the chance to deploy Ruby applications on a number of different platforms over the past few years, including [Heroku](https://www.heroku.com/), [Digital Ocean](https://www.digitalocean.com/) (via Capistrano directly to a VPS), and [AWS](https://aws.amazon.com/) via Elastic Beanstalk. Heroku is surely the easiest of the bunch and is probably still the best place to start - particularly if you've not deployed web apps or had some experience managing servers before.

@@ -4,14 +4,19 @@ title: All Posts
 permalink: /articles/
 ---
 
-<ul class="list-unstyled">
+<div>
   {% for post in site.posts %}
-    <li>
-      <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-      <h3>
-      	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      	<small>{{post.date | date: '%B %d, %Y'}}</small>
-      </h3>
-    </li>
+    <div class="row topspace-lg">
+      <div class="col-md-12 post-card-link">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="card post-card" style="background-image: url('{{ post.img }}'); background-repeat: no-repeat; background-position: center; position: relative; background-size: cover;">
+            <h2>
+            	{{ post.title }}
+            </h2>
+            <h4>{{post.date | date: '%B %d, %Y'}}</h4>
+          </div>
+        </a>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>

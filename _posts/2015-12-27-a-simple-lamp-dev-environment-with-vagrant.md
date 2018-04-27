@@ -2,6 +2,7 @@
 layout: post
 title: A Simple PHP Dev Environment with Vagrant
 category: tutorials
+img: /images/header-php-dev.jpg
 ---
 
 In the past, I used WAMP for my local dev environment, then MAMP, then just ran everything on my mac. Configuring this and creating local environment that even closely match my production environments has always been a painful, frustrating process. 

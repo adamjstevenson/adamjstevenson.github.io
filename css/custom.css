@@ -62,6 +62,50 @@ h3, h4 {
 h4 {
   font-weight: bold;
 }
+.card {
+  webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.card::after {
+  transition: opacity 0.25s ease-in-out;
+}
+.post-card-link a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.card:hover {
+  transform: scale(1.02, 1.02);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.card:hover::after {
+  opacity: 1;
+}
+.card h2, .card h4 {
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #000;
+}
+.card h4 {
+  color: #ccc;
+}
+.post-card {
+  padding: 150px;
+}
+.link-card {
+  text-align: center;
+}
+@media only screen and (max-width: 600px){
+  .card {
+    padding: 20px;
+  }
+  .jumbotron {
+    padding: 40px;
+  }
+}
 .topspace {
 	margin-top: 10px;
 }
@@ -82,6 +126,9 @@ h4 {
 }
 .green {
 	color: #006600;
+}
+.gray {
+  color: #666;
 }
 .image-area {
 	margin-bottom: 50px;
@@ -110,4 +157,7 @@ pre {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+}
+.fa-huge {
+  font-size: 250px;
 }
