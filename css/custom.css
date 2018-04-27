@@ -11,29 +11,44 @@ html {
 body {
 	font-size: 18px;
 }
+.navbar-default {
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
+  height: 60px;
+}
+.navbar-brand {
+  padding: 8px 15px;
+}
+.navbar-collapse {
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
+}
 .navbar {
-	background: #CB356B;
-	background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
-	background: linear-gradient(to right, #BD3F32, #CB356B);
-	border-radius: 0px;
-	margin-bottom: 0px;
+  margin-bottom: 0px;
+  border-style: none;
+  border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-weight: normal;
+  margin-right: 8px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #0099e5;
 }
 .jumbotron {
-	background: #CB356B;
-	background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
-	background: linear-gradient(to right, #BD3F32, #CB356B);
+	background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
 	color: #fff;
-	padding: 100px;
+	padding: 150px;
 }
 .jumbotron h1 a:link, .jumbotron h1 a:visited {
 	color:#fff;
 	text-decoration: none;
   font-weight: 300;
-}
-.navbar a:link, .navbar a:visited {
-	color: #fff;
-	font-weight: normal;
-	margin-right: 8px;
 }
 h1, h2, h3, h4 {
 	font-weight: 400;
