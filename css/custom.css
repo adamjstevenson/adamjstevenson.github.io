@@ -118,6 +118,9 @@ h4 {
 .blue {
 	color: #0099e5;
 }
+.blue-bg {
+  background-color: #0099e5;
+}
 .red {
 	color: #B20000;
 }
@@ -127,8 +130,11 @@ h4 {
 .green {
 	color: #006600;
 }
-.gray {
-  color: #666;
+.gray-bg {
+  background-color: #666;
+}
+.purple-bg {
+  background-color: #7266ba;
 }
 .image-area {
 	margin-bottom: 50px;
