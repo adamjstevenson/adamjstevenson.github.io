@@ -22,6 +22,6 @@ permalink: /articles/
 </div>
 
 <hr class="topspace-lg">
-<p class="text-center">
+<p class="text-center text-muted">
   Images from <a href="https://unsplash.com">Unsplash</a>
 </p>
