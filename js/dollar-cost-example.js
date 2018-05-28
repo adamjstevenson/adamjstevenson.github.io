@@ -31,8 +31,7 @@ var config = {
     },
     tooltips: {
       mode: 'index',
-      intersect: false,
-
+      intersect: false
     },
     hover: {
       mode: 'nearest',

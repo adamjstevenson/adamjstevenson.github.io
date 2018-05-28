@@ -1,15 +1,15 @@
 html {
-    font-family: "proxima-nova", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    line-height: 25px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    color: #555;
-    padding: 0;
-    margin: 0;
+  font-family: "proxima-nova", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: #555;
+  padding: 0;
+  margin: 0;
 }
 body {
-	font-size: 18px;
+  font-size: 18px;
 }
 .navbar-default {
   height: 60px;
@@ -37,7 +37,7 @@ body {
   color: #ccc;
 }
 .jumbotron {
-	color: #fff;
+  color: #fff;
   text-shadow: 1px 1px 3px #000;
   padding-top: 0px;
   background: linear-gradient(270deg, #1b322c, #053869);
@@ -50,23 +50,23 @@ body {
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
 }
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
 }
 @keyframes AnimationName { 
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
 }
 .jumbotron h1 a:link, .jumbotron h1 a:visited {
-	color:#fff;
-	text-decoration: none;
+  color:#fff;
+  text-decoration: none;
   font-weight: 300;
 }
 .jumbotron-title {
@@ -74,13 +74,13 @@ body {
   text-align: center;
 }
 h1, h2, h3, h4 {
-	font-weight: 400;
+  font-weight: 400;
 }
 h2 {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 h3, h4 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 h4 {
   font-weight: bold;
@@ -130,54 +130,63 @@ h4 {
   }
 }
 .topspace {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .topspace-md {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 .topspace-lg {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 .blue {
-	color: #0099e5;
+  color: #0099e5;
 }
 .blue-bg {
   background-color: #0099e5;
 }
+.dark-blue {
+  color: #000080;
+}
 .red {
-	color: #B20000;
+  color: #B20000;
 }
 .pink {
-	color: #B20000;
+  color: #E55EA2;
 }
 .green {
-	color: #006600;
+  color: #006600;
 }
 .gray-bg {
   background-color: #666;
 }
+.gray {
+  color: #666;
+}
 .purple-bg {
   background-color: #7266ba;
 }
-.image-area {
-	margin-bottom: 50px;
+.purple {
+  color: #7266ba;
+}
+.image-area, .bottomspace {
+  margin-bottom: 50px;
 }
 .highlighter-rouge {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 pre {
   background-color: #000;
   color: #fff;
 }
 .alert {
-	webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
 }
 .alert-warning {
-	border: 1px solid #B20000;
-	background-color: #fff;
-	color: #000;
+  border: 1px solid #B20000;
+  background-color: #fff;
+  color: #000;
 }
 .btn {
   border: none;
@@ -189,4 +198,47 @@ pre {
 }
 .fa-huge {
   font-size: 250px;
+}
+.shadow-lg {
+  webkit-box-shadow: 0px 50px 160px 0 rgba(2,7,13,0.18);
+  -moz-box-shadow: 0px 50px 160px 0 rgba(2,7,13,0.18);
+  box-shadow: 0px 50px 160px 0 rgba(2,7,13,0.18);
+}
+.img-center {
+  display: block;
+  margin: auto;
+}
+blockquote{
+  font-size: 1.4em;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
 }
