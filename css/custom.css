@@ -34,24 +34,44 @@ body {
   margin-right: 8px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: #0099e5;
-}
-.nav-wrapper {
-  background: #141E30;
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);
-  background: linear-gradient(to right, #243B55, #141E30);
+  color: #ccc;
 }
 .jumbotron {
-	background: #141E30;
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);
-  background: linear-gradient(to right, #243B55, #141E30);
 	color: #fff;
-	padding: 150px;
+  text-shadow: 1px 1px 3px #000;
+  padding-top: 0px;
+  background: linear-gradient(270deg, #1b322c, #053869);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 48s ease infinite;
+  -moz-animation: AnimationName 48s ease infinite;
+  animation: AnimationName 48s ease infinite;
+  webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
 }
 .jumbotron h1 a:link, .jumbotron h1 a:visited {
 	color:#fff;
 	text-decoration: none;
   font-weight: 300;
+}
+.jumbotron-title {
+  padding:150px;
+  text-align: center;
 }
 h1, h2, h3, h4 {
 	font-weight: 400;
@@ -105,7 +125,7 @@ h4 {
   .card {
     padding: 20px;
   }
-  .jumbotron {
+  .jumbotron-title {
     padding: 40px;
   }
 }
