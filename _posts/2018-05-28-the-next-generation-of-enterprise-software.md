@@ -58,7 +58,7 @@ The same study by <a href="https://www.forrester.com/report/Predictions+2018+Clo
 
 ## APIs
 
-Obviously I have some bias here since I work for [a company](https://stripe.com) where the product *is* a set of APIs and I spend my time working with large companies to design API-driven solutions. I expect that we'll continue to see significant growth and adoption in this space as larger firms accelerate development and offload complexity from their existing operations by integrating with an powerful third-party APIs. 
+I work for [a company](https://stripe.com) where the product *is* a set of APIs and spend my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption here as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
 
 Just as every business used to rack and manage their own servers before shifting to cloud hosting platforms, there's a growing ecosystem of APIs which allow businesses to focus on their core competencies and leave the heavy lifting to someone else. In practice, this often results in lowering OPEX, reducing downtime and maintenance, and providing a better customer experience.
 
@@ -67,7 +67,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
 <div class="text-center topspace-lg text-muted image-area">
   <img src="/images/tc-apis.jpg" class="img-responsive shadow-lg img-center">
   <p>
-    <small>Dang that's a bunch of APIs.</small>
+    <small>Dang that's a bunch of APIs. Photo credit: TechCrunch</small>
   </p>
 </div>
 
@@ -81,7 +81,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
     </span>
   </div>
   <div class="col-md-11">
-    <a href="https://checkr.com" target="_blank">Checkr</a> makes management of background checks possible via a <a href="https://docs.checkr.com/" target="_blank">set of nice API abstractions</a>. I know nothing useful about the world of background checks, but this seems like a particularly powerful alternative to spinning up an in-house team to manage an otherwise arduous process.
+    <a href="https://checkr.com" target="_blank">Checkr</a> makes management of background checks possible via a <a href="https://docs.checkr.com/" target="_blank">their API</a>. I know nothing useful about the world of background checks, but this seems like a particularly powerful alternative to spinning up an in-house team to manage an otherwise arduous process.
   </div>
 </div>
 <div class="row topspace-md">
@@ -92,7 +92,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
     </span>
   </div>
   <div class="col-md-11">
-    <a href="https://twilio.com" target="_blank">Twilio</a> offers a set of easy to use set of services that some of the <a href="https://customers.twilio.com" target="_blank">largest companies in the world</a> use to build voice, video, and SMS messaging into their applications. I can't imagine how difficult it is to create and manage this internally, but I've integrated Twilio into applications in a few minutes.
+    <a href="https://twilio.com" target="_blank">Twilio</a> offers a set of easy to use services that some of the <a href="https://customers.twilio.com" target="_blank">largest companies in the world</a> leverage to build voice, video, and SMS messaging into their applications. I can't imagine how difficult it is to create and manage this internally, but I've integrated Twilio into applications in a few minutes.
   </div>
 </div>
 <div class="row topspace-md">
@@ -114,7 +114,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
 
 ## Automation
 
-Automation is sometimes a scary word, with concerns in the near term around what automation means particularly for workers completing low-skilled and repetitive tasks. Check out this cheery finding from a recent <a href="https://www.mckinsey.com/~/media/McKinsey/Global%20Themes/Digital%20Disruption/Harnessing%20automation%20for%20a%20future%20that%20works/MGI-A-future-that-works_Full-report.ashx" target="_blank">McKinsey piece</a> on automation:
+Automation is sometimes a scary word, with concerns in the near term around what automation means particularly for workers completing low-skilled and repetitive tasks. Check out this cheery finding from a recent <a href="https://www.mckinsey.com/~/media/McKinsey/Global%20Themes/Digital%20Disruption/Harnessing%20automation%20for%20a%20future%20that%20works/MGI-A-future-that-works_Full-report.ashx" target="_blank">McKinsey piece</a>:
 
 <blockquote>
   <strong>About half the activities people are paid almost $15 trillion in wages to do in the global economy have the potential to be automated by adapting currently demonstrated technology</strong>, according to our analysis of more than 2,000 work activities across 800 occupations. While less than 5 percent of all occupations can be automated entirely using demonstrated technologies, about 60 percent of all occupations have at least 30 percent of constituent activities that could be automated.
@@ -126,7 +126,7 @@ The report goes on to say:
   People will need to continue working alongside machines to produce the growth in per capita GDP to which countries around the world aspire.
 </blockquote>
 
-I for one welcome our new robot overlords™️. The report also calls out that "our productivity estimates assume that people displaced by automation will find other employment," we should assume that (1) work is likely to shift and (2) automation is here to stay regardless of your views around it. Since I'm primarily talking about software, I'll avoid discussion of robotics and jobs focus on benefits of automation as it relates to enterprise software.
+I for one welcome our new robot overlords™️. The report also calls out that "our productivity estimates assume that people displaced by automation will find other employment," which... sounds more positive? In any case, we should assume that (1) work is likely to shift and (2) automation is here to stay regardless of your views around it. Since I'm primarily talking about software, I'll avoid discussion of robotics/jobs and instead focus on benefits of automation as it relates to enterprise software.
 
 <h3 class="text-center topspace-lg">So how will enterprises benefit from automation?</h3>
 
@@ -165,7 +165,7 @@ I for one welcome our new robot overlords™️. The report also calls out that 
 </div>
 
 <div class="topspace-md"></div>
-**Bottom line:** There are more opportunities for automation than ever before as enterprise software providers build automation opportunities directly into their offerings. 
+**Bottom line:** There are more opportunities for automation than ever before as enterprise software providers build automation opportunities directly into their applications. 
 
 <hr>
 
