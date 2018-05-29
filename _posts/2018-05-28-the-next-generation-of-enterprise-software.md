@@ -8,10 +8,10 @@ img: /images/header-enterprise-software.jpg
   <div class="col-md-8">
     <h2>Local man weirdly excited about enterprise software</h2>
     <p>
-      I've spent my career working across all kinds of companies since I got out of school, ranging from solo endeavors I ran myself to large Fortune 500 enterprises. I'm also about 3.5 years into my time at a high-growth tech company, so at this point I've had the chance to do the (very) small, medium, and large company thing. 
+      I've spent my career working across all kinds of companies since I got out of school over 10 years ago (ugh), ranging from solo endeavors I ran myself to large Fortune 500 enterprises. I'm also about 3.5 years into my time at a high-growth tech company, so at this point I've had the chance to do the (very) small, medium, and large company thing. 
     </p>
     <p>
-      I'm grateful to have this background in part because it's provided me perspective on how different types of companies work, along which tools they use. With that in mind, the area I think the segment that we'll see change the most, and where there's the most opportunity for ambitious upstarts, is the enterprise. The way large companies work is evolving rapidly: we'll continue to see operations improve for these businesses through adoption of better tools and infrastructure. 
+      I'm grateful to have this background because it's given me perspective on how different types of companies work, along which tools they use. With that in mind, I believe the segment that we'll see change the most, and where there's the most opportunity for ambitious upstarts, is the enterprise. The way large companies work, along with the kind of software they require, is evolving rapidly: we'll continue to see operations improve for these businesses through adoption of better tools and infrastructure. 
     </p>
     <p>
       Large enterprises also employ <a href="https://www.census.gov/content/dam/Census/library/publications/2015/econ/g12-susb.pdf" target="_blank"> more than half</a> of the American workforce, so firms providing tools in this space can make a serious impact on a large number of users by improving the work lives of over 100 million people. (Ask someone working for a large company how they feel about the software they use every day.)
@@ -50,7 +50,7 @@ For Amazon in particular, growth of AWS has been *staggering*, accounting for <a
 
 If Amazon were to spin off AWS into its own separate business, given it's current growth trajectory and a 10x forward revenues valuation, **AWS alone would have a market cap of at least $200B**, making it the 5th most valuable tech company in the world at the time of this writing.
 
-The same study by <a href="https://www.forrester.com/report/Predictions+2018+Cloud+Computing+Accelerates+Enterprise+Transformation+Everywhere/-/E-RES139611" target="_blank">Forrester</a> mentioned above shows that in 2018 we'll see more than 50% of enterprises adopting public cloud platforms. Whereas leaders of these large companies have traditionally been apprehensive about moving their sensitive data to the cloud, we're seeing increasing adoption as these services prove themselves more reliable and secure than many on-premise alternatives. Stanford and the Cleveland Clinic store and access sensitive health records <a href="https://cloud.google.com/customers/">on GCP</a>. AWS developed a <a href="https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region/" target="_blank">Secret Region</a> and now works with the Central Intelligence Agency. 
+The same study by <a href="https://www.forrester.com/report/Predictions+2018+Cloud+Computing+Accelerates+Enterprise+Transformation+Everywhere/-/E-RES139611" target="_blank">Forrester</a> mentioned above shows that in 2018 we'll see more than 50% of enterprises adopting public cloud platforms. Whereas leaders of these large companies have traditionally been apprehensive about moving their sensitive data to the cloud, adoption is increasing as these services prove themselves more reliable and secure than many on-premise alternatives. Stanford and the Cleveland Clinic store and access sensitive health records <a href="https://cloud.google.com/customers/">on GCP</a>. AWS developed a <a href="https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region/" target="_blank">Secret Region</a> and now works with the Central Intelligence Agency. 
 
 **Bottom line:** expect this trend to continue and the total addressable market, and share of enterprise customers leveraging cloud infrastructure, to stay up and to the right for years to come.
 
@@ -58,7 +58,7 @@ The same study by <a href="https://www.forrester.com/report/Predictions+2018+Clo
 
 ## APIs
 
-I work for [a company](https://stripe.com) where the product *is* a set of APIs and spend my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption here as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
+I work for [a company](https://stripe.com) whose product *is* a set of APIs, and I spend my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption here as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
 
 Just as every business used to rack and manage their own servers before shifting to cloud hosting platforms, there's a growing ecosystem of APIs which allow businesses to focus on their core competencies and leave the heavy lifting to someone else. In practice, this often results in lowering OPEX, reducing downtime and maintenance, and providing a better customer experience.
 
