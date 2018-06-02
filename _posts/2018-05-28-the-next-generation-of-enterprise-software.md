@@ -58,7 +58,7 @@ The same study by <a href="https://www.forrester.com/report/Predictions+2018+Clo
 
 ## APIs
 
-I work for [a company](https://stripe.com) whose product *is* a set of APIs, and I spend my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption here as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
+I work for [a company](https://stripe.com) whose product *is* a set of APIs and focus my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption in this area as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
 
 Just as every business used to rack and manage their own servers before shifting to cloud hosting platforms, there's a growing ecosystem of APIs which allow businesses to focus on their core competencies and leave the heavy lifting to someone else. In practice, this often results in lowering OPEX, reducing downtime and maintenance, and providing a better customer experience.
 
@@ -71,7 +71,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
   </p>
 </div>
 
-<h3 class="text-center">Consider a couple examples of where an enterprise might benefit from one of these services</h3>
+<h3 class="text-center">How might an enterprise might benefit from one of these services?</h3>
 
 <div class="row topspace-md">
   <div class="col-md-1">
