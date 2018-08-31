@@ -8,29 +8,29 @@ img: /images/header-crypto.jpg
 <div class="row topspace">
   <div class="col-md-12">
     <div class="alert alert-warning">
-      <i class="fa fa-exclamation-triangle red"></i> 
+      <i class="fa fa-exclamation-triangle red"></i>
       <strong>Big scary discalimer!</strong> This is not investment advice. Be wise with your money, and expect that using this code (or code like it) could cause you to lose it.
     </div>
   </div>
 </div>
 
 ## What we're doing here
-* Build an [AWS Lambda](https://aws.amazon.com/lambda/) function in Node.js. 
+* Build an [AWS Lambda](https://aws.amazon.com/lambda/) function in Node.js.
 * Hook into the APIs that [GDAX](https://docs.gdax.com/) provides to buy $10 worth of [Ethereum](https://www.ethereum.org/) every day for 100 days.
 * Use [Twilio](https://www.twilio.com/sms) to send an SMS to tell us about it.
 
 ## Getting started
 
 * [Node.js and NPM](https://nodejs.org/en/download/) should be installed on your local machine.
-* To run this in the cloud with Lambda, you'll need an [AWS account](https://aws.amazon.com/). 
-* To buy ETH, You need a [GDAX developer account](https://public.sandbox.gdax.com/) and the keys from that account to hook into GDAX. <span class="red">I strongly recommend using their sandbox (linked) to test and get everything working, then you can just swap the keys for the live account once you're ready.</span> 
+* To run this in the cloud with Lambda, you'll need an [AWS account](https://aws.amazon.com/).
+* To buy ETH, you need a [GDAX developer account](https://public.sandbox.gdax.com/) and the keys from that account. <span class="red">I strongly recommend using their sandbox (linked) to test and get everything working, then you can just swap the keys for the live account once you're ready.</span>
 * You also need a [Twilio account](https://www.twilio.com/try-twilio) and phone number to send SMS messages. Twilio is awesome and very inexpensive, and you can even try it for free.
 
 ## Preamble: Why dollar-cost averaging?
 
-Cypto markets are incredibly volatile and [dollar-cost averaging](https://en.wikipedia.org/wiki/Dollar_cost_averaging) is a simple investment strategy that essentially aims to reduce the impact of volatility on investments by spreading a purchase over time in equal increments. If you wanted to buy $1k worth of Bitcoin as a (very speculative) investment (..."*investment*"), then you might decide to buy $100 every 10 days for 100 days instead of purchasing all of it at once. 
+Cypto markets are incredibly volatile and [dollar-cost averaging](https://en.wikipedia.org/wiki/Dollar_cost_averaging) is a simple investment strategy that essentially aims to reduce the impact of volatility on investments by spreading a purchase over time in equal increments. If you wanted to buy $1k worth of Bitcoin as a (very speculative) investment (..."*investment*"), then you might decide to buy $100 every 10 days for 100 days instead of purchasing all of it at once.
 
-But why not buy it all at once? Let's look at a simple example. 
+But why not buy it all at once? Let's look at a simple example.
 
 <div class="row topspace-lg">
   <div class="col-md-12">
@@ -56,7 +56,7 @@ If you've never worked with Lambda, it's really fun and quite powerful. Though "
 
 GCP also provides their own version, [Cloud Functions](https://cloud.google.com/functions/). This would also be a viable path but from what I can tell quickly may [require spinning up an App Engine instance](https://medium.com/google-cloud/google-cloud-functions-scheduling-cron-5657c2ae5212) to handle scheduling.
 
-I won't detail the process of creating the app and using NPM to install all of the local packages here, but there's lots of detail in the [Getting Started](https://docs.npmjs.com/) section in the NPM docs if you want to create this from scratch. Otherwise, head over to the [Github repo](https://github.com/adamjstevenson/serverless-crypto-dca) and follow the instructions there to clone this repository. 
+I won't detail the process of creating the app and using NPM to install all of the local packages here, but there's lots of detail in the [Getting Started](https://docs.npmjs.com/) section in the NPM docs if you want to create this from scratch. Otherwise, head over to the [Github repo](https://github.com/adamjstevenson/serverless-crypto-dca) and follow the instructions there to clone this repository.
 
 ## Creating the Lambda function
 
@@ -74,7 +74,7 @@ Now we're ready to create a [Lambda function handler](https://docs.aws.amazon.co
   <script src="https://gist.github.com/adamjstevenson/cd9684be6999da152b154425e486f149.js"></script>
 </div>
 
-The first [request is made](https://github.com/adamjstevenson/serverless-crypto-dca/blob/689f6f628633a2e890773c85ce6400045a6e3057/app.js#L24-L41) to the [GDAX product ticker](https://docs.gdax.com/#get-product-ticker) endpoint to get the current trade price for ETH. 
+The first [request is made](https://github.com/adamjstevenson/serverless-crypto-dca/blob/689f6f628633a2e890773c85ce6400045a6e3057/app.js#L24-L41) to the [GDAX product ticker](https://docs.gdax.com/#get-product-ticker) endpoint to get the current trade price for ETH.
 
 <div class="topspace-md">
   <script src="https://gist.github.com/adamjstevenson/13ccdc278cd2a874b5ad815493a217e2.js"></script>
@@ -138,9 +138,9 @@ If everything works, you'll get your text from Twilio. Neat!
 
 At this point, the heavy lifting is done: you have a working Lambda function that talks to GDAX and Twilio, checking the price of ETH, making a purchase, and telling you about it. The last step is to stick this on AWS and set up CloudWatch. The purpose of CloudWatch is just to run this function on a schedule (so that you can buy ETH daily without doing anything to make the function run).
 
-An easy way to create the function is to zip up the files you'll need and upload them directly. Start by creating a .zip of `app.js`, `.env`, `package.json`, `package-lock.json`, and the entire `node_modules` folder. 
+An easy way to create the function is to zip up the files you'll need and upload them directly. Start by creating a .zip of `app.js`, `.env`, `package.json`, `package-lock.json`, and the entire `node_modules` folder.
 
-Next, log into AWS, visit the Lambda dashboard, and click the **Create function** button. Select the option to **Author from scratch**. 
+Next, log into AWS, visit the Lambda dashboard, and click the **Create function** button. Select the option to **Author from scratch**.
 
 You can name the function and role whatever you like. Select the option to **Create a new role from templates(s)** and pick the **Simple Microservice permissions** template. Click the button to **Create function**.
 
@@ -150,7 +150,7 @@ You can name the function and role whatever you like. Select the option to **Cre
   </div>
 </div>
 
-Once the function has been created, scroll down to the *Function code* section and change the select box *Code entry type* to **Upload a .ZIP file**. Enter **app.handler** in the *Handler* input field and click **Upload** to upload the file. 
+Once the function has been created, scroll down to the *Function code* section and change the select box *Code entry type* to **Upload a .ZIP file**. Enter **app.handler** in the *Handler* input field and click **Upload** to upload the file.
 
 <div class="row topspace-lg text-center text-muted image-area">
   <div class="col-md-8 col-md-offset-2">
@@ -158,7 +158,7 @@ Once the function has been created, scroll down to the *Function code* section a
   </div>
 </div>
 
-We also want to change the timeout value for the function to ensure it has time to run. Scroll down to the *Basic settings* area and set the timeout to 15 seconds. 
+We also want to change the timeout value for the function to ensure it has time to run. Scroll down to the *Basic settings* area and set the timeout to 15 seconds.
 
 <div class="row topspace-lg text-center text-muted image-area">
   <div class="col-md-8 col-md-offset-2">
@@ -166,7 +166,7 @@ We also want to change the timeout value for the function to ensure it has time 
   </div>
 </div>
 
-Click **Save** to finish up, then let's test this thing. Use the select list on the top of the page next to the *Test* button ad select **Configure test events**. Just add an empty hash and click **Create**. 
+Click **Save** to finish up, then let's test this thing. Use the select list on the top of the page next to the *Test* button ad select **Configure test events**. Just add an empty hash and click **Create**.
 
 <div class="row topspace-lg text-center text-muted image-area">
   <div class="col-md-8 col-md-offset-2">
@@ -178,7 +178,7 @@ Click the **Test** button to run the function; you should receive another SMS fr
 
 ## Scheduling the function with CloudWatch
 
-We could ping this function every day on our own to make it run, but that's so 2000 and late. Instead, we'll use CloudWatch to schedule a simple job. 
+We could ping this function every day on our own to make it run, but that's so 2000 and late. Instead, we'll use CloudWatch to schedule a simple job.
 
 Click **CloudWatch Events** on the left side of the designer view, then click on the **CloudWatch Events** box that appears to reveal the *Configure triggers* form. Configure CloudWatch with the name, description and cron schedule you want to use. Be sure to click the checkbox to **Enable the trigger**.
 
@@ -196,6 +196,6 @@ This is a pretty basic example that purchases $10 worth of Ether every day, but 
 
 1. This code might screw up somehow and cause you to lose all of your real money, I have no idea. I also make no warranty. For the love of god... be careful with this (and also don't @ me).
 2. This purchase will fail if the price of ETH is too high, because the minimum buy order may be more than $10. If you wanted to get really fancy, you could implement some logic to send an SMS to ask if you want to purchase .01 ETH for the current USD price or something.
-3. Keep all of your keys safe. If someone steals them, you could lose all of your real money (or cryptobucks). 
+3. Keep all of your keys safe. If someone steals them, you could lose all of your real money (or cryptobucks).
 4. Yes, I know [Coinbase](https://coinbase.com) is great and will also purchase $N worth of whatever coin on a schedule for you. But didn't you have a good time building this?
 
