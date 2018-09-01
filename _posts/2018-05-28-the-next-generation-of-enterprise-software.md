@@ -14,7 +14,7 @@ img: /images/header-enterprise-software.jpg
       I'm grateful to have this background because it's given me perspective on how different types of companies work, along which tools they use. With that in mind, I believe the segment that we'll see change the most, and where there's the most opportunity for ambitious upstarts, is the enterprise. The way large companies work, along with the kind of software they require, is evolving rapidly: we'll continue to see operations improve for these businesses through adoption of better tools and infrastructure.
     </p>
     <p>
-      Large enterprises also employ <a href="https://www.census.gov/content/dam/Census/library/publications/2015/econ/g12-susb.pdf" target="_blank"> more than half</a> of the American workforce, so firms providing tools in this space can make a serious impact on a large number of users by improving the work lives of tends of millions of people. (Ask someone working for a large company how they feel about the software they use every day.)
+      Large enterprises also employ <a href="https://www.census.gov/content/dam/Census/library/publications/2015/econ/g12-susb.pdf" target="_blank"> more than half</a> of the American workforce, so firms providing tools in this space can make a serious impact on a large number of users by improving the work lives of millions of people. (Ask someone working for a large company how they feel about the software they use every day.)
     </p>
     <p>
       In this post I'll outline some of the areas where I think enterprises will continue to benefit in no particular order. It's business time.
