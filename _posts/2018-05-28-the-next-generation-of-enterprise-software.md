@@ -8,13 +8,13 @@ img: /images/header-enterprise-software.jpg
   <div class="col-md-8">
     <h2>Local man weirdly excited about enterprise software</h2>
     <p>
-      I've spent my career working across all kinds of companies since I got out of school over 10 years ago (ugh), ranging from solo endeavors I ran myself to large Fortune 500 enterprises. I'm also about 3.5 years into my time at a high-growth tech company, so at this point I've had the chance to do the (very) small, medium, and large company thing. 
+      I've spent my career working across all kinds of companies since I got out of school over 10 years ago (ugh), ranging from solo endeavors I ran myself to large Fortune 500 enterprises. I'm also about 3.5 years into my time at a high-growth tech company, so at this point I've had the chance to do the (very) small, medium, and large company thing.
     </p>
     <p>
-      I'm grateful to have this background because it's given me perspective on how different types of companies work, along which tools they use. With that in mind, I believe the segment that we'll see change the most, and where there's the most opportunity for ambitious upstarts, is the enterprise. The way large companies work, along with the kind of software they require, is evolving rapidly: we'll continue to see operations improve for these businesses through adoption of better tools and infrastructure. 
+      I'm grateful to have this background because it's given me perspective on how different types of companies work, along which tools they use. With that in mind, I believe the segment that we'll see change the most, and where there's the most opportunity for ambitious upstarts, is the enterprise. The way large companies work, along with the kind of software they require, is evolving rapidly: we'll continue to see operations improve for these businesses through adoption of better tools and infrastructure.
     </p>
     <p>
-      Large enterprises also employ <a href="https://www.census.gov/content/dam/Census/library/publications/2015/econ/g12-susb.pdf" target="_blank"> more than half</a> of the American workforce, so firms providing tools in this space can make a serious impact on a large number of users by improving the work lives of over 100 million people. (Ask someone working for a large company how they feel about the software they use every day.)
+      Large enterprises also employ <a href="https://www.census.gov/content/dam/Census/library/publications/2015/econ/g12-susb.pdf" target="_blank"> more than half</a> of the American workforce, so firms providing tools in this space can make a serious impact on a large number of users by improving the work lives of tends of millions of people. (Ask someone working for a large company how they feel about the software they use every day.)
     </p>
     <p>
       In this post I'll outline some of the areas where I think enterprises will continue to benefit in no particular order. It's business time.
@@ -50,7 +50,7 @@ For Amazon in particular, growth of AWS has been *staggering*, accounting for <a
 
 If Amazon were to spin off AWS into its own separate business, given it's current growth trajectory and a 10x forward revenues valuation, **AWS alone would have a market cap of at least $200B**, making it the 5th most valuable tech company in the world at the time of this writing.
 
-The same study by <a href="https://www.forrester.com/report/Predictions+2018+Cloud+Computing+Accelerates+Enterprise+Transformation+Everywhere/-/E-RES139611" target="_blank">Forrester</a> mentioned above shows that in 2018 we'll see more than 50% of enterprises adopting public cloud platforms. Whereas leaders of these large companies have traditionally been apprehensive about moving their sensitive data to the cloud, adoption is increasing as these services prove themselves more reliable and secure than many on-premise alternatives. Stanford and the Cleveland Clinic store and access sensitive health records <a href="https://cloud.google.com/customers/">on GCP</a>. AWS developed a <a href="https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region/" target="_blank">Secret Region</a> and now works with the Central Intelligence Agency. 
+The same study by <a href="https://www.forrester.com/report/Predictions+2018+Cloud+Computing+Accelerates+Enterprise+Transformation+Everywhere/-/E-RES139611" target="_blank">Forrester</a> mentioned above shows that in 2018 we'll see more than 50% of enterprises adopting public cloud platforms. Whereas leaders of these large companies have traditionally been apprehensive about moving their sensitive data to the cloud, adoption is increasing as these services prove themselves more reliable and secure than many on-premise alternatives. Stanford and the Cleveland Clinic store and access sensitive health records <a href="https://cloud.google.com/customers/">on GCP</a>. AWS developed a <a href="https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region/" target="_blank">Secret Region</a> and now works with the Central Intelligence Agency.
 
 **Bottom line:** expect this trend to continue and the total addressable market, and share of enterprise customers leveraging cloud infrastructure, to stay up and to the right for years to come.
 
@@ -58,11 +58,11 @@ The same study by <a href="https://www.forrester.com/report/Predictions+2018+Clo
 
 ## APIs
 
-I work for [a company](https://stripe.com) whose product *is* a set of APIs and focus my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption in this area as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs. 
+I work for [a company](https://stripe.com) whose product *is* a set of APIs and focus my time working with large companies to design API-driven solutions, so I get to see the opportunity here first hand. I expect that we'll continue to see significant growth and adoption in this area as larger firms accelerate development and offload complexity from their existing operations by integrating with powerful third-party APIs.
 
 Just as every business used to rack and manage their own servers before shifting to cloud hosting platforms, there's a growing ecosystem of APIs which allow businesses to focus on their core competencies and leave the heavy lifting to someone else. In practice, this often results in lowering OPEX, reducing downtime and maintenance, and providing a better customer experience.
 
-TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/21/the-rise-of-apis/" target="_blank">The Rise of the APIs</a>, which is well worth the read and includes the sweet infographic below. 
+TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/21/the-rise-of-apis/" target="_blank">The Rise of the APIs</a>, which is well worth the read and includes the sweet infographic below.
 
 <div class="text-center topspace-lg text-muted image-area">
   <img src="/images/tc-apis.jpg" class="img-responsive shadow-lg img-center">
@@ -103,7 +103,7 @@ TechCrunch wrote a great article titled <a href="https://techcrunch.com/2016/05/
     </span>
   </div>
   <div class="col-md-11">
-    <a href="https://www.algolia.com" target="_blank">Algolia</a> provides search as a service, and is used by large companies <a href="https://www.algolia.com/customers" target="_blank">like Under Armour and Twitch</a>. Though it's certainly possible for enterprise users to build and maintain their own search service directly, it's pretty challenging to do so and Algolia is just going to do a better job than you are. 
+    <a href="https://www.algolia.com" target="_blank">Algolia</a> provides search as a service, and is used by large companies <a href="https://www.algolia.com/customers" target="_blank">like Under Armour and Twitch</a>. Though it's certainly possible for enterprise users to build and maintain their own search service directly, it's pretty challenging to do so and Algolia is just going to do a better job than you are.
   </div>
 </div>
 
@@ -165,15 +165,15 @@ I for one welcome our new robot overlords™️. The report also calls out that 
 </div>
 
 <div class="topspace-md"></div>
-**Bottom line:** There are more opportunities for automation than ever before as enterprise software providers build automation opportunities directly into their applications. 
+**Bottom line:** There are more opportunities for automation than ever before as enterprise software providers build automation opportunities directly into their applications.
 
 <hr>
 
 ## Conclusion
 
-Enterprise software is improving significantly in the past decade or so and large organizations are more likely (and eager) than ever before to integrate new applications and services. 
+Enterprise software is improving significantly in the past decade or so and large organizations are more likely (and eager) than ever before to integrate new applications and services.
 
-I never expected to be genuinely excited about the world of enterprise software when I was *working* at enterprises, but see major advances happening in the space and think there's an opportunity to bring better solutions to these organizations and improve the lives of their employees (who spend 5 days a week working with these products). Let's help get them off Lotus Notes. If you're starting a software company or developing an application, there's no bigger or better market to target right now. 
+I never expected to be genuinely excited about the world of enterprise software when I was *working* at enterprises, but see major advances happening in the space and think there's an opportunity to bring better solutions to these organizations and improve the lives of their employees (who spend 5 days a week working with these products). Let's help get them off Lotus Notes. If you're starting a software company or developing an application, there's no bigger or better market to target right now.
 
 <div class="text-center topspace-lg text-muted image-area">
   <img src="/images/enterprise-folks.jpg" class="img-responsive shadow-lg img-center">
