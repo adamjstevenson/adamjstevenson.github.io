@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Next Generation of Enterprise Software"
-category: cryptocurrency
+category: business
 img: /images/header-enterprise-software.jpg
 ---
 <div class="row">
