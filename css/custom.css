@@ -29,49 +29,66 @@ body {
   border-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: #7266ba;
+  text-shadow: none;
   font-weight: normal;
   margin-right: 8px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: #ccc;
+  color: #000080;
 }
 .jumbotron {
-  color: #fff;
+  color: #ddd;
   text-shadow: 1px 1px 3px #000;
   padding-top: 0px;
-  background: linear-gradient(270deg, #1b322c, #053869);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 48s ease infinite;
-  -moz-animation: AnimationName 48s ease infinite;
-  animation: AnimationName 48s ease infinite;
-  webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
-  -moz-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
-  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),0 5px 15px rgba(0, 0, 0, 0.07);
-}
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 91%}
-  50%{background-position:100% 10%}
-  100%{background-position:0% 91%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 91%}
-  50%{background-position:100% 10%}
-  100%{background-position:0% 91%}
-}
-@keyframes AnimationName { 
-  0%{background-position:0% 91%}
-  50%{background-position:100% 10%}
-  100%{background-position:0% 91%}
+  background-color: #dfdfdf;
 }
 .jumbotron h1 a:link, .jumbotron h1 a:visited {
   color:#fff;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: bold;
+  font-size: 140px;
 }
 .jumbotron-title {
   padding:150px;
   text-align: center;
+}
+.text-pop-up-top {
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  color: #fff;
+}
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
 }
 h1, h2, h3, h4 {
   font-weight: 400;
@@ -127,6 +144,12 @@ h4 {
   }
   .jumbotron-title {
     padding: 40px;
+  }
+  .jumbotron h1 a:link, .jumbotron h1 a:visited {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 60px;
   }
 }
 .topspace {
